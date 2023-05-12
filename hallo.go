@@ -1,5 +1,9 @@
 package gomodultest
 
 func SayHallo() string {
-	return "say hallo"
+	return "hallo"
+}
+
+func SayHalloName(name string) string {
+	return "hallo " + name
 }
